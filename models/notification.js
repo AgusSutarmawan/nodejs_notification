@@ -13,14 +13,17 @@ const Notification = mongoose.Schema({
         type:String,
 
     },
-    userID:{
-        type:String,
-        require:true
-    },
-    file:{
+
+    name:{
         type:String,
 
-    }
+    },
+    
+    userID:{
+        type:Number,
+        require:true
+    },
+    
 }, {
     timestamps: true,
 
